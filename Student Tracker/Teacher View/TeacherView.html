@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<link rel="stylesheet" href="TeacherView.css">
+</head>
+
+<body>
+<script src="TeacherView.js"></script>
+<h2 style="font-size: 40px;text-align: center">Teacher Name Advisory Tracker</h2>
+
+<div id="gradbook-display">
+<div>
+	<label for="gradebook">Select the gradebook file:</label>
+	<input type="file" id="gradebook" name="gradebook" accept=".csv">
+	<input type="button" onclick="readCSV(), document.getElementById('advisoryList').style.display='block'"; value="Load Students">
+
+</div>
+
+<table id="gradebookCSVData">
+	<thead>
+	</thead>
+
+	<tbody>
+	</tbody>
+
+</table>
+
+</div>
+
+<div id="advisoryList" style="display:none">
+	<label for="advisoryStudents">Select all your advisory students:</label>
+	<select id="advisoryStudents" name="advisoryStudents" multiple>
+	</select>
+	<input type="button" onclick="document.getElementById('studentDataTable').style.display='block'" value="Select Students">
+</div>
+
+<div Id="studentDataTable" style="display:none">
+	<table id="advisoryTable">
+		<tr>
+			<th>Student Name</th>
+			<th>Parent Email</th>
+			<th>Tier</th>
+		</tr>
+		<tr>
+			<td class = "onPace"><a href="StudentView.html" target="_blank">Student 1</a></td>
+			<td class = "onPace">parent@email.org</td>
+			<td class = "onPace">--</td>
+		</tr>
+
+		<tr>
+			<td class = "dangerPace">Student 2</td>
+			<td class = "dangerPace">parent@email.org</td>
+			<td class = "dangerPace"><a href="Insert Parent Meeting Form Here">Parent Meeting</a></td>
+		</tr>
+	</table>
+</div>
+
+</body>
+
+</html>

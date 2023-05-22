@@ -1,0 +1,14 @@
+.onPace{
+	background-color:green;
+	color: black;
+}
+
+.warningPace{
+	background-color:yellow;
+	color: black;	
+}
+
+.dangerPace{
+	background-color:red;
+	color: black;	
+}
