@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+<link rel = "stylesheet" href = "StudentView.css">
+</head>
+
+<body>
+<h2 style = "font-size: 40px; text-align: center">Student Name Academic Tracker</h2>
+
+<form>
+	<label for="classes">Classes</label>
+	<select id="classes" name="classes">
+		<option value="Math"  class = "button-onPace">Math</option>
+		<option value="English" class = "button-warningPace">English</option>
+		<option value="Social Studies" class = "button-dangerPace">Social Studies</option>
+		<option value="Science">Science</option>
+		<option value="CTE">CTE</option>
+	</select>
+	<input type="button" value="View" onclick = "document.getElementById('math-display').style.display='block'">
+</form>
+
+<div id = "math-display" style="display:none">
+<h4>Math</h4>
+<p>Quarter: </p>
+<p>Deliverables Completed: </p>
+<p>Deliverables Needed: </p>
+
+<p>Office Hours: </p>
+<p>Attendance: </p>
+<p>Time: </p>
+
+<p>To catch up by _____ these assignments must be completed today: </p>
+
+</div>
+
+
+</body>
+
+</html>
+
