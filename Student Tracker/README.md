@@ -11,23 +11,24 @@ this webpage to help. This code is a work in progress as there are many pieces i
 
 ## How to Run
 Open the file called TeacherView.html
-[Main View](/Screenshots/Teacher Tracker 1.png)
+<img src = "Screenshots/Teacher Tracker 1.png">
 
 Choose a csv file where the grades are stored. Then click load students.
 
-[Students Loaded into the System](/Screenshots/Teacher Tracker 2.png)
+<img src = "Screenshots/Teacher Tracker 2.png">
 After the students have been loaded into the webpage, select the students to add to a tracking group.
 To add more than one student hold down the Command key (Mac) or Control key (Windows) and click on the name of the student.
 
-[Students Loaded into the System](/Screenshots/Teacher Tracker 3.png)
+<img src = "Screenshots/Teacher Tracker 3.png">
 This shows an example of where the students will appear. The Parent Meeting can have a link that will take a user to a Google
 Form or other location to schedule the parent meeting. The name of the Student 1 can be clicked to show what the student tracker
 looks like for that student.
 
-[Students Loaded into the System](/Screenshots/Student Tracker 1.png)
+
+<img src = "Screenshots/Student Tracker 1.png">
 This is the view for the student tracker. Here classes can be selected to view a students progress.
 
-[Students Loaded into the System](/Screenshots/Student Tracker 2.png)
+<img src = "Screenshots/Student Tracker 2.png">
 When math is selected, a section with information will appear to show what the student needs to work on.
 
 ## Code Example
